@@ -1,10 +1,43 @@
-@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
 @import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #000;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+  background-color: darkgray;
+  width: 50%;
+  margin: 0 auto;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+}
+h1{
+  padding: 1em;
+}
+button{
+  padding: 1em;
+border-radius: 5px;
+background-color: #000;
+color: #fff;
+font-weight: 700;
+}
 
-
-body {
-  background-color: antiquewhite;
-  color: brown;
-  text-align: center;
-  margin-top: 100px;
+#jokeSetup, #punchline{
+  font-size: 1.5em;
+  padding: .5em 0;
 }
